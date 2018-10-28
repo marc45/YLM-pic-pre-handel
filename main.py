@@ -27,5 +27,5 @@ for image in images:
         img=np.rot90(img)
         cv.imwrite(image,img) #将图片覆盖写入
     resizecrop(image,image,800,1600)
-    watermark="/Users/yaakovazat/Documents/biryol-trans-capa.png"
+    watermark="wm.png"
     wmark(image,watermark)
