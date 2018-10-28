@@ -5,12 +5,12 @@ from watermark import *
 from resizecrop import *
 
 # 读取文件夹内的图片文件
-pngs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*png')
-PNGs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*PNG')
-jpgs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*jpg')
-JPGs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*JPG')
-jpegs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*jpeg')
-JPEGs=glob.glob('/Users/yaakovazat/Downloads/YLM-pic-down/*JPEG')
+pngs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*png')
+PNGs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*PNG')
+jpgs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*jpg')
+JPGs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*JPG')
+jpegs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*jpeg')
+JPEGs=glob.glob('/Users/yaakovazat/Pictures/YLM-pic-down/*JPEG')
 
 #活的所有图片文件的绝对地址
 images=pngs+PNGs+jpegs+jpgs+JPEGs+JPGs
